@@ -3,6 +3,9 @@
     background-image: linear-gradient(white,white),url('images/HERO.jpg');
     padding: 0;
     background-blend-mode: saturation;
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
 }
 
 .navigation{
@@ -51,4 +54,28 @@
     font-size: 3rem;
     padding:4px;
     margin-top: 4px;
+}
+.services{
+    background-color: aqua;
+}
+.service>*, .title>h2{
+    color: white;
+    font-weight: bold;
+  
+}
+.service>h3{
+    text-transform: uppercase;
+    font-weight:normal;
+
+}
+
+.title>h2{
+    text-transform: uppercase;
+    font-weight:normal;
+}
+.underlined{
+    text-decoration: underline;
+}
+.service{
+    text-align:left;
 }
